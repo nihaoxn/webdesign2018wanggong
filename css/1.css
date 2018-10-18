@@ -1,0 +1,30 @@
+h1{
+    color:red;
+    font-weight:normal;
+    width: 500px;
+    height: 200px;
+    border: 1px solid red;
+}
+html{
+
+    background: #cccccc;
+    
+}
+
+.myh1{
+    color: blue;
+}
+#myhd{
+    color: green;
+}
+#myhd span,.myh1 span{
+    color: #4e4b4b;
+    font-size: 14px;
+    font-weight: normal;
+}
+table{
+    background: white;
+}
+table tr:nth-child(odd){
+    background: red;
+}
