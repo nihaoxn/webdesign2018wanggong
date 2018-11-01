@@ -1,0 +1,141 @@
+body{
+   margin-top: 0px;
+}
+ul,li,h1{
+    margin:0px;
+    padding:0px;
+}
+#search{
+    height: 38px;
+    width:100%;
+    margin:0px auto;
+    background: rgb(30, 110, 27);
+}
+#search_in{
+    width: 1200px;
+    height: 38px;
+    margin:0px auto;
+}
+#liuyan{
+    width:80px;
+    height: 38px;
+    float: left;
+    margin-left: 10px;
+}
+#liuyan a{
+    color:white;
+    font-size:14px;
+    text-decoration:none;
+    line-height:38px;
+}
+#sousuo{
+    float: left;
+}
+#youxiang{
+    width:200px;
+    height: 38px;
+    line-height: 38px;
+    float: right;
+    text-align: right;
+    color: white;
+}
+#youxiang a{
+    color:white;
+    font-size:14px;
+    text-decoration:none;
+    line-height:38px;
+}
+#banner{
+    width: 100%;    
+    height: 107px;
+    margin: 0px auto;
+    background:url(../images/banner_bg.jpg);
+}
+#banner_in{
+    width: 1200px;
+    height: 107px;
+    margin:0px auto;
+}
+#logo{
+    float:left;
+    margin-top:15px;
+    margin-left: 10px;
+}
+#xiaoxun{
+    float: right;
+    margin-top: 40px;
+}
+#daohang{
+    width:100%;
+    height: 42px;
+    margin:0px auto;
+    background:url(../images/navbg.png);
+}
+#daohang_in{
+    width: 1200px;
+    height: 42px;
+    margin: 0px auto;
+}
+#daohang_in ul{
+    list-style: none;
+}
+
+#daohang_in ul li{
+    float: left;
+    height: 42px;
+    line-height: 42px;
+    width: 110px;
+    text-align: center;
+}
+#daohang_in ul li a{
+    color:white;
+    font-size:16px;
+    text-decoration:none;
+}
+#focus{
+    width:100%;
+    height: 550px;
+    margin:0px auto;
+    background: url(../images/bg.png) repeat-x;
+}
+#focus_in{
+    width:1200px;
+    height: 550px;
+    margin:0px auto;
+}
+#col_1{
+    width: 1200px;
+    height:415px;
+    margin:0px auto;
+}
+#col_1 h1{
+    height: 85px;
+    line-height: 85px;
+    font-size:24px;
+    color: rgb(50, 50, 50);
+    font-weight: normal;
+    background: url(../images/tbg01.png) no-repeat left center;
+    padding-left: 35px;
+}
+#col_1 h1 a{
+    color:rgb(150, 150, 150);
+    font-size: 12px;
+    text-decoration: none;
+    float: right;
+}
+#col_1 ul{
+    width: 1200px;
+    height: 330px;
+    list-style: none;
+}
+
+#col_1 ul li{
+    float: left;
+    width:130px;
+    background:red;
+}
+#col_1 ul li img{
+    width:129px;
+    height: 193px;
+    
+}

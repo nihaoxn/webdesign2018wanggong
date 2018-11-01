@@ -1,0 +1,15 @@
+body{
+    margin-top: 0px;
+}
+#div1{
+    margin: 0px auto;
+    width:1000px;
+    height: 60px;
+    border: 2px solid red;
+}
+#div2{
+    margin:0px auto;
+    width: 1000px;
+    height: 200px;
+    border: 2px solid red;
+}
