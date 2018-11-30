@@ -5,13 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>表单</title>
-<script type="text/javascript" language="javascript">
-    
-    alert(document[0]);
-    
-</script>
+
 </head>
-<body>
+<body style="background:#ccc;height: 600px;">
     <form action="?" method="get">
          用户名：<input type="text" name="username" placeholder="请输入用户名" maxlength="20" style="border-radius:5px;outline: 0px;border:1px solid red;box-shadow: 0px 0px 2px 2px rgb(235, 88, 88);"><br>
          密　码：<input type="password" name="password" placeholder="请输入密码" maxlength="30"><br>
@@ -20,7 +16,7 @@
              <option value="驻马店" selected="selected">驻马店</option>
          </select><br>
          性　别：<input type="radio" name="sex" value="男" checked="checked">男<input type="radio" name="sex" value="女">女<br>
-         爱　好：<input type="checkbox" name="aihao" value="足球" >足球<input type="checkbox" name="aihao" value="篮球">篮球 <button>全选</button>  <br>
+         爱　好：<input type="checkbox" name="aihao" value="足球" >足球<input type="checkbox" name="aihao" value="篮球">篮球 <button onclick="checkAll();return false;">全选</button>  <br>
          签　名：<textarea name="qianming" rows="5" cols="15">请输入个性签名</textarea><br>
          头　像：<input style="border:1px solid red;" type="file" name="photo" id=""><br>
                 <input type="hidden" name="yincang" value="789">
@@ -29,5 +25,25 @@
          <input type="submit" value="登录"><input type="reset" value="重置">
          
         </form>
+<script type="text/javascript" language="javascript">
+    // alert(document.body.style.background);
+  function changeColor(){
+    // var yanse = new Array("red","yellow","blue","green");
+    // document.body.style.backgroundColor = yanse[Math.floor(Math.random()*4)];
+    document.body.style.backgroundColor = "rgb("+Math.floor(Math.random()*256)+","+Math.floor(Math.random()*256)+","+Math.floor(Math.random()*256)+")";
+    
+ }
+//设置一个定时器，定时来改变
+//var tm = setInterval(changeColor,1000);
+
+//全选函数
+function checkAll(){
+    var cbx = document.getElementsByName("aihao");
+    for(var i=0;i<cbx.length;i++){        
+         cbx[i].checked = "checked";
+    }
+}
+</script>
 </body>
+
 </html>
